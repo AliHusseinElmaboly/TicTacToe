@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Twins XO</string>
+	<string name="main_title">Twins XO</string>
+	<string name="choose_title">choice</string>
+	<string name="continue_label">Continue</string>
+	<string name="new_game_label">New Game</string>
+	
+	<string name="options_label">Options</string>
+	<string name="settings_label">Settings</string>
+	<string name="easy_label">Easy</string>
+	<string name="medium_label">Medium</string>
+	<string name="hard_label">Hard</string>
+	
+	<string name="message_title">Message</string>
+	<string name="question_title">Question</string>
+	
+	<string name="Tie_game">Tie</string>
+	<string name="O_win_game">O win!</string>
+	<string name="X_win_game">X win!</string>
+	<string name="restart_game">Restart Game?</string>
+
+	<string name="help_label">Help</string>
+	<string name="help_title">Help</string>
+		
+	<string name="single_label">one player</string>
+	<string name="two_label">two players</string>
+    <string name="back">Go Back</string>
+    <string name="new_game">New game</string>
+    <string name="clear_score">Clear Score</string>
+    <string name="help">help</string>
+    <string name="options">Options</string>
+     <string name="start">Start</string>
+     	
+	<string name="bkcolor">background Color</string>
+    <string name="lcolor">line Color</string>
+    <string name="ocolor">O Marker Color</string>
+    <string name="xcolor">X Marker Color</string>
+        <string name="cancel">cancel</string>
+    <string name="ok">ok</string>
+    <array name="string_array">
+	<item>Red</item>
+	<item>Blue</item>
+	<item>Green</item>
+	<item>Yellow</item>
+	<item>Black</item>
+	<item>white</item>
+	</array>
+	
+	<string name="help_text">
+	 <b>Tic Tac Toe</b> This game can play by <b>one</b> Player or <b>Two</b> Players ,the player try to put three -<b>X</b>-marks in a line horizontally, vertically, or diagonally  before the computer or The second player can line up three -<b>O</b>-marks and you win.</string>
+
+</resources>

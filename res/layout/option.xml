@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"  android:layout_height="fill_parent"
+ android:background="@color/background">
+
+ <TableRow>
+
+ 
+  <TextView  
+    android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+    android:layout_gravity="left" 
+    android:text="@string/bkcolor"
+	style="@style/ButtonStyle"
+    />
+<Spinner
+	android:id="@+id/spinner1"
+	 android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:drawSelectorOnTop="true"
+    
+    />
+    
+
+</TableRow>
+ <TableRow>
+
+ 
+  <TextView  
+   	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+    android:layout_gravity="left" 
+    android:text="@string/lcolor"
+    style="@style/ButtonStyle"
+    />
+<Spinner
+	android:id="@+id/spinner2"
+	 android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:drawSelectorOnTop="true"
+    />
+    
+
+ </TableRow>
+ <TableRow>
+
+  <TextView  
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+    android:layout_gravity="left" 
+    android:text="@string/ocolor"
+    style="@style/ButtonStyle"
+    />
+<Spinner
+	android:id="@+id/spinner3"
+	 android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:drawSelectorOnTop="true"
+    />
+    
+
+</TableRow>
+ <TableRow>
+
+ 
+  <TextView  
+    android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+    android:layout_gravity="left" 
+    android:text="@string/xcolor"
+    style="@style/ButtonStyle"
+    />
+<Spinner
+	android:id="@+id/spinner4"
+	 android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:drawSelectorOnTop="true"
+    />
+    
+
+</TableRow>
+ <TableRow>
+
+    
+      <Button 
+            android:id="@+id/cancel"
+			android:text="@string/cancel"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/button_selector"
+			style="@style/ButtonStyle"
+		/>
+		   
+      <Button 
+            android:id="@+id/ok"
+			android:text="@string/ok"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/button_selector"
+			style="@style/ButtonStyle"
+		/>
+    
+
+</TableRow>
+	
+</TableLayout>
